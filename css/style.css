@@ -39,7 +39,7 @@ nav a {
 .main-info h1 {
     font-size: 96px;
     font-weight: 600;
-    max-width: 735px;
+    max-width: 936px;
     color: var(--white);
 }
 
@@ -58,4 +58,7 @@ nav a {
 
 .button a{
     color: var(--darkgrey);
+    font-size: 17px;
+    font-weight: 600;
 }
+
