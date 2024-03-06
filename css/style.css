@@ -128,3 +128,33 @@ nav a {
     font-size: 17px;
     font-weight: 600;
 }
+.block-3 {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 60px;
+    padding-top: 120px;
+}
+.right-text-button {
+    padding-top: 89px;
+}
+.right-text-button h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--grey);
+    padding-bottom: 20px;
+}
+.right-text-button p {
+    font-weight: 400;
+    color: var(--darkgrey);
+    padding-bottom: 60px;
+}
+.button-3 {
+    padding: 20px 40px 20px 65px;
+    background-color: var(--darkgrey);
+    width: 180px;
+}
+.button-3 a {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 600;
+}
