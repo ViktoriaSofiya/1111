@@ -184,3 +184,58 @@ nav a {
 .bg {
     padding-top: 190px;
 }
+.footer{
+    background-color: var(--darkgrey);
+}
+.wrapper-footer{
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 60px;
+}
+.left-footer h1{
+    padding-top: 90px;
+    padding-bottom: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--white); 
+}
+.left-footer h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey); 
+    padding-bottom: 30px;
+}
+.icons {
+    margin-right: 20px;
+    padding-bottom: 126px;
+}
+.icons:last-child {
+    margin-right: 0px;
+}
+.right-footer h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--white); 
+    max-width: 501px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+form {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.button-4 {
+    position: absolute;
+    left:547px;
+    top: 0px;
+}
+
+input {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--grey);
+    border-bottom: 1px solid var(--grey);
+    width: 570px;
+    padding-bottom: 24px;
+}
